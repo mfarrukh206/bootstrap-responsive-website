@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Logo</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div id="navbarScroll" class="collapse navbar-collapse flex-grow-0" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="templates/about.html">About</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="templates/services.html">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="templates/contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Mountains
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/k2.html">K2</a></li>
+                          <li><a class="dropdown-item" href="templates/Everest.html">Everest</a></li>
+                          <li><a class="dropdown-item" href="templates/Kangchenjunga.html">Kangchenjunga</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Planets
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/mars.html">Mars</a></li>
+                          <li><a class="dropdown-item" href="templates/jupiter.html">Jupiter</a></li>
+                          <li><a class="dropdown-item" href="templates/earth.html">Earth</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cars
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/ferrari.html">Ferrari</a></li>
+                          <li><a class="dropdown-item" href="templates/bugatti.html">Bugatti</a></li>
+                          <li><a class="dropdown-item" href="templates/lambo.html">Lamborghini</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Rivers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/indus.html">Indus River</a></li>
+                          <li><a class="dropdown-item" href="templates/chenab.html">Chenab River</a></li>
+                          <li><a class="dropdown-item" href="templates/kabul.html">Kabul River</a></li>
+                          <li><a class="dropdown-item" href="templates/jhelum.html">Jhelum River</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <div class="container mt-3 bg-warning">
+      <div  class="row">
+        <div  class="col">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+          </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About</li>
+          </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="templates/about.html">About</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col align-self-center text-end">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </button>
+           <ul class="dropdown-menu">
+            <button type="button" class="btn btn-primary position-relative w-100 ml-1 mt-1">
+              Inbox
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                99+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+            <!-- //////////////////////////////////////////////////////// -->
+            <button type="button" class="btn btn-primary w-100 ml-1 mt-1">
+              Notifications <span class="badge text-bg-secondary">4</span>
+            </button>
+            <!-- //////////////////////////////////////////////////////// -->
+            <button type="button" class="btn btn-primary position-relative w-100 ml-1 mt-1">
+              Profile
+              <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+              </span>
+            </button>
+          </ul>
+          </div>
+        
+      </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/ferrari729151.avif" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ferrari</h5>
+                <p>Ferrari is an Italian luxury sports car manufacturer</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/lamborghoni.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lamborghini</h5>
+                <p>Lamborghini is an Italian luxury sports car manufacturer known for its high-performance vehicles and bold designs.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/bugatti-chiron-1500.webp" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bugatti Chiron 1500hp</h5>
+                <p>Bugatti Chiron 1500hp is a supercar produced by the French automaker bugatti.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/g-wagon-g63.avif" height="600" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>G Wagon G63 </h5>
+                <!-- write information about the car -->
+                <p> G Wagon G63 is a sports car produced by the German automaker vw. </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <div id="success" class="row mt-5" style="width: 90%;">
+      <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+        A simple success alert Congratulations you have successfully reached this page!
+      </div>
+    </div>
+    <div class="row" style="--bs-gutter-x: 0rem;">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mars</h5>
+              <p class="card-text">Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/jupiter_4x3.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jupiter</h5>
+              <p class="card-text">Jupiter is the fifth planet from the Sun and the largest in the Solar System.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/GSFC_20171208_Archive_e002131~large.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Earth</h5>
+              <p class="card-text">Earth is the third planet from the Sun and the only astronomical object known to harbor life.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/screen_shot_2019-01-08_at_8.43.07_pm.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mercury</h5>
+              <p class="card-text">Mercury is the smallest planet in the Solar System and the closest to the Sun.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="--bs-gutter-x: 0rem;">
+      <div class="col mt-5 ms-5">
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Toggle width collapse
+          </button>
+        </p>
+        <div style="min-height: 120px; max-width: 300px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;">
+              Ending of the planets section of the website
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-group mt-2" style="width: 60rem;">
+        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+          The current button
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">A second button item</button>
+        <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+        <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+        <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+      </div>
+    </div>
+    <div class="container ms-5">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Warning!
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Warning</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Do you really want to delete this item? 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Navbar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Logo</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div id="navbarScroll" class="collapse navbar-collapse flex-grow-0" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="templates/about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="templates/contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Mountains
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/k2.html">K2</a></li>
+                          <li><a class="dropdown-item" href="templates/Everest.html">Everest</a></li>
+                          <li><a class="dropdown-item" href="templates/Kangchenjunga.html">Kangchenjunga</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Planets
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/mars.html">Mars</a></li>
+                          <li><a class="dropdown-item" href="templates/jupiter.html">Jupiter</a></li>
+                          <li><a class="dropdown-item" href="templates/earth.html">Earth</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cars
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/ferrari.html">Ferrari</a></li>
+                          <li><a class="dropdown-item" href="templates/bugatti.html">Bugatti</a></li>
+                          <li><a class="dropdown-item" href="templates/lambo.html">Lamborghini</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Rivers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="templates/indus.html">Indus River</a></li>
+                          <li><a class="dropdown-item" href="templates/chenab.html">Chenab River</a></li>
+                          <li><a class="dropdown-item" href="templates/kabul.html">Kabul River</a></li>
+                          <li><a class="dropdown-item" href="templates/jhelum.html">Jhelum River</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+        </div>
+          </div>
+        </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    </div>
+    <div id="page-shuffler" class="row mt-5"style="--bs-gutter-x: 0rem;">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#" onclick="previousPage()">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="index.html" onclick="goToPage(1)">1</a></li>
+          <li class="page-item"><a class="page-link" href="about.html" onclick="goToPage(2)">2</a></li>
+          <li class="page-item"><a class="page-link" href="contact.html" onclick="goToPage(3)">3</a></li>
+          <li class="page-item"><a class="page-link" href="#" onclick="nextPage()">Next</a></li>
+        </ul>
+      </nav>
+      
+      <script>
+        let currentPage = 1;
+      
+        function goToPage(page) {
+          currentPage = page;
+          switch (page) {
+            case 1:
+              window.location.href = 'home.html';
+              break;
+            case 2:
+              window.location.href = 'about.html';
+              break;
+            case 3:
+              window.location.href = 'contact.html';
+              break;
+            default:
+              console.log('Page not found');
+          }
+        }
+      
+        function nextPage() {
+          if (currentPage < 3) { // 3 is the last page
+            currentPage++;
+            goToPage(currentPage);
+          }
+        }
+      
+        function previousPage() {
+          if (currentPage > 1) { // 1 is the first page
+            currentPage--;
+            goToPage(currentPage);
+          }
+        }
+      </script>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Introduction to AI</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Machine Learning Basics</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Deep Learning Concepts</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Future of AI</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Introduction to AI</h4>
+            <p>Artificial Intelligence (AI) is the field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding. AI is divided into two categories: narrow AI, which is designed for specific tasks like facial recognition or language translation, and general AI, which aims to perform any intellectual task that a human can do.</p>
+            
+            <h4 id="list-item-2">Machine Learning Basics</h4>
+            <p>Machine Learning (ML) is a core component of AI, where algorithms are used to parse data, learn from it, and make informed decisions based on that knowledge. Instead of being explicitly programmed for each task, ML models improve their accuracy over time as they process more data. Common applications include email filtering, fraud detection, and recommendation engines like those used by Netflix or Amazon.</p>
+            
+            <h4 id="list-item-3">Deep Learning Concepts</h4>
+            <p>Deep Learning is a subset of Machine Learning that involves neural networks with many layers (hence "deep"). These networks are modeled after the human brain and are particularly effective for analyzing complex patterns in large datasets. Deep Learning is behind many recent advancements in AI, including advancements in image recognition, speech recognition, and even autonomous vehicles.</p>
+            
+            <h4 id="list-item-4">Future of AI</h4>
+            <p>The future of AI holds exciting possibilities, from personalized healthcare to more intelligent and responsive AI assistants. However, the rapid growth of AI also raises important questions about privacy, ethics, and the future of work. As AI becomes more integrated into society, it will be crucial to develop regulations and guidelines to ensure that its benefits are maximized while minimizing potential risks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="progress m-5">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">This website is in Progress...</div>
+    </div>
+    <div id="loading-btn" class="col">
+      <button class="btn btn-primary  text-center type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        <span class="visually-hidden">Loading...</span>
+      </button>
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Please wait page is Loading...
+      </button>
+    </div>
+    </div>
+    <!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+      
+      <!-- About Section -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">About Us</h5>
+        <p>We are a leading company in AI technologies, providing innovative solutions to meet the demands of the future. Our mission is to make AI accessible and beneficial to everyone.</p>
+      </div>
+
+      <!-- Quick Links Section -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+        <p>
+          <a href="index.html" class="text-white" style="text-decoration: none;">Home</a>
+        </p>
+        <p>
+          <a href="templates/about.html" class="text-white" style="text-decoration: none;">About Us</a>
+        </p>
+        <p>
+          <a href="templates/services.html" class="text-white" style="text-decoration: none;">Services</a>
+        </p>
+        <p>
+          <a href="templates/contact.html" class="text-white" style="text-decoration: none;">Contact</a>
+        </p>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+        <p>
+          <i class="fas fa-home mr-3"></i> 1234 Street Name, City, Country
+        </p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@example.com
+        </p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> +123 456 7890
+        </p>
+        <p>
+          <i class="fas fa-print mr-3"></i> +123 456 7891
+        </p>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <hr class="mb-4">
+    
+    <!-- Copyright Section -->
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p class="text-white-50">© 2024 All Rights Reserved:
+          <a href="#" style="text-decoration: none;">
+            <strong class="text-white">YourCompany</strong>
+          </a>
+        </p>
+      </div>
+      
+      <div class="col-md-5 col-lg-4">
+        <p class="text-white-50">Developed by:
+          <a href="#" style="text-decoration: none;">
+            <strong class="text-white">M Farrukh</strong>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

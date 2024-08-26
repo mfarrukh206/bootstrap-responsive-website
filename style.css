@@ -1,0 +1,25 @@
+#navbarScroll a:hover {
+    color: #0d6efd;
+}
+#success {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 70px;
+}
+#page-shuffler ul{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+#popover {
+    display: flex;
+    justify-content: end;
+}
+#loading-btn{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
